@@ -1,0 +1,27 @@
+body {
+    background-color:#000;
+    margin:0;
+    padding:0;
+}
+
+.logo {
+    transform: scale(-1, 1);
+    width:200px;
+    height:auto;
+    position:absolute;
+}
+.row-container {
+    position:relative;
+}
+.row {
+    width:100%;
+    height:100px;
+    display:block;
+    position:relative;
+}
+.row.white {
+    background-color:#fff;
+}
+.row.black {
+    background-color:#000;
+}
